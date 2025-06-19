@@ -1,18 +1,20 @@
 switch (direction) 
 {
-	case 90:
+	case DIR_UP:
 		y -= 32;
 		break;
-	case 180:
+	case DIR_LEFT:
 		x -= 32;
 		break;
-	case 270:
+	case DIR_DOWN:
 		y += 32;
 		break;
-	case 0:
+	case DIR_RIGHT:
 		x += 32;
 }
 image_angle = direction;
 alarm[0] = 60;
+
+
 
 //222

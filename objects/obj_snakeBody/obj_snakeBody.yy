@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_snakeBody",
+    "path":"sprites/spr_snakeBody/spr_snakeBody.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
